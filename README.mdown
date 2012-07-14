@@ -1,0 +1,19 @@
+Browser Chooser
+================
+
+A simple, ARC-compliant application with a portable category to allow users to open URLs in the browser of their choice. You can add the category NSURL+BrowserChooser to your application in order to facilitate opening links in Google Chrome. 
+
+To use the app, enter any url into the box. You can click on the "http://" to switch between http and https. The category runs a check to make sure both Google Chrome is installed and that it is capable of opening the particular URL scheme you wish to open. 
+
+More details on supporting Google Chrome in your application can be found here: https://developers.google.com/chrome/mobile/docs/ios-links. 
+
+
+License
+-------
+This project is licensed under the MIT license and can be used for free in any commercial or non-commercial applications. More information available here: http://en.wikipedia.org/wiki/MIT_License
+
+Questions?
+----------
+Email designatednerd at gmail dot com. Submit a pull request if you'd like to try to improve this code. 
+
+_July 14, 2012_

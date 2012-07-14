@@ -15,6 +15,13 @@
 		F57FB4AE15B1F25C006A04B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F57FB4AD15B1F25C006A04B0 /* AppDelegate.m */; };
 		F57FB4B115B1F25C006A04B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57FB4B015B1F25C006A04B0 /* ViewController.m */; };
 		F57FB4B415B1F25C006A04B0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57FB4B215B1F25C006A04B0 /* ViewController.xib */; };
+		F57FB4BC15B1F9A9006A04B0 /* NSURL+BrowserChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = F57FB4BB15B1F9A9006A04B0 /* NSURL+BrowserChooser.m */; };
+		F57FB4C215B20483006A04B0 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = F57FB4BE15B20483006A04B0 /* Icon-Small.png */; };
+		F57FB4C315B20483006A04B0 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F57FB4BF15B20483006A04B0 /* Icon-Small@2x.png */; };
+		F57FB4C415B20483006A04B0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F57FB4C015B20483006A04B0 /* Icon.png */; };
+		F57FB4C515B20483006A04B0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F57FB4C115B20483006A04B0 /* Icon@2x.png */; };
+		F57FB4C715B207CC006A04B0 /* MIT License.txt in Resources */ = {isa = PBXBuildFile; fileRef = F57FB4C615B207CC006A04B0 /* MIT License.txt */; };
+		F57FB4C915B20958006A04B0 /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = F57FB4C815B20958006A04B0 /* README.mdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +29,23 @@
 		F57FB49D15B1F25A006A04B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F57FB49F15B1F25A006A04B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F57FB4A115B1F25A006A04B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F57FB4A515B1F25A006A04B0 /* BrowserChooser-Info.plist */ = {isa = PBXFileReference; path = "BrowserChooser-Info.plist"; sourceTree = "<group>"; };
+		F57FB4A515B1F25A006A04B0 /* BrowserChooser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrowserChooser-Info.plist"; sourceTree = "<group>"; };
 		F57FB4A715B1F25B006A04B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F57FB4A915B1F25B006A04B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F57FB4AB15B1F25B006A04B0 /* BrowserChooser-Prefix.pch */ = {isa = PBXFileReference; path = "BrowserChooser-Prefix.pch"; sourceTree = "<group>"; };
-		F57FB4AC15B1F25B006A04B0 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F57FB4AB15B1F25B006A04B0 /* BrowserChooser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrowserChooser-Prefix.pch"; sourceTree = "<group>"; };
+		F57FB4AC15B1F25B006A04B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F57FB4AD15B1F25C006A04B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F57FB4AF15B1F25C006A04B0 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F57FB4AF15B1F25C006A04B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F57FB4B015B1F25C006A04B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F57FB4B315B1F25C006A04B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F57FB4BA15B1F9A9006A04B0 /* NSURL+BrowserChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+BrowserChooser.h"; sourceTree = "<group>"; };
+		F57FB4BB15B1F9A9006A04B0 /* NSURL+BrowserChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+BrowserChooser.m"; sourceTree = "<group>"; };
+		F57FB4BE15B20483006A04B0 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		F57FB4BF15B20483006A04B0 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		F57FB4C015B20483006A04B0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F57FB4C115B20483006A04B0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		F57FB4C615B207CC006A04B0 /* MIT License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "MIT License.txt"; sourceTree = "<group>"; };
+		F57FB4C815B20958006A04B0 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +65,7 @@
 		F57FB48E15B1F256006A04B0 = {
 			isa = PBXGroup;
 			children = (
+				F57FB4C815B20958006A04B0 /* README.mdown */,
 				F57FB4A315B1F25A006A04B0 /* BrowserChooser */,
 				F57FB49C15B1F25A006A04B0 /* Frameworks */,
 				F57FB49A15B1F25A006A04B0 /* Products */,
@@ -79,9 +95,12 @@
 			children = (
 				F57FB4AC15B1F25B006A04B0 /* AppDelegate.h */,
 				F57FB4AD15B1F25C006A04B0 /* AppDelegate.m */,
+				F57FB4BA15B1F9A9006A04B0 /* NSURL+BrowserChooser.h */,
+				F57FB4BB15B1F9A9006A04B0 /* NSURL+BrowserChooser.m */,
 				F57FB4AF15B1F25C006A04B0 /* ViewController.h */,
 				F57FB4B015B1F25C006A04B0 /* ViewController.m */,
 				F57FB4B215B1F25C006A04B0 /* ViewController.xib */,
+				F57FB4BD15B20483006A04B0 /* icons */,
 				F57FB4A415B1F25A006A04B0 /* Supporting Files */,
 			);
 			path = BrowserChooser;
@@ -94,8 +113,20 @@
 				F57FB4A615B1F25B006A04B0 /* InfoPlist.strings */,
 				F57FB4A915B1F25B006A04B0 /* main.m */,
 				F57FB4AB15B1F25B006A04B0 /* BrowserChooser-Prefix.pch */,
+				F57FB4C615B207CC006A04B0 /* MIT License.txt */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F57FB4BD15B20483006A04B0 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				F57FB4BE15B20483006A04B0 /* Icon-Small.png */,
+				F57FB4BF15B20483006A04B0 /* Icon-Small@2x.png */,
+				F57FB4C015B20483006A04B0 /* Icon.png */,
+				F57FB4C115B20483006A04B0 /* Icon@2x.png */,
+			);
+			path = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +182,12 @@
 			files = (
 				F57FB4A815B1F25B006A04B0 /* InfoPlist.strings in Resources */,
 				F57FB4B415B1F25C006A04B0 /* ViewController.xib in Resources */,
+				F57FB4C215B20483006A04B0 /* Icon-Small.png in Resources */,
+				F57FB4C315B20483006A04B0 /* Icon-Small@2x.png in Resources */,
+				F57FB4C415B20483006A04B0 /* Icon.png in Resources */,
+				F57FB4C515B20483006A04B0 /* Icon@2x.png in Resources */,
+				F57FB4C715B207CC006A04B0 /* MIT License.txt in Resources */,
+				F57FB4C915B20958006A04B0 /* README.mdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +201,7 @@
 				F57FB4AA15B1F25B006A04B0 /* main.m in Sources */,
 				F57FB4AE15B1F25C006A04B0 /* AppDelegate.m in Sources */,
 				F57FB4B115B1F25C006A04B0 /* ViewController.m in Sources */,
+				F57FB4BC15B1F9A9006A04B0 /* NSURL+BrowserChooser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
